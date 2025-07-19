@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  form(id="generator" action="/" method="post")
+    input(placeholder="Enter the url", type="text", name="url")
+    br
+    p= "https://ls.kingchev.net/" + hash
